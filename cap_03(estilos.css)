@@ -1,0 +1,144 @@
+/*Definições de estilo para o corpo da página*/
+body { 
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    }
+
+    /*Estilo para os cabeçalhos*/
+    h2 {
+        color: #333;
+        margin-bottom: 20px;
+    }
+    h3 {
+        margin: 10px 0;
+        color: #666;
+    }
+    /*Estilos para links*/
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+    .font-family {
+        font-family: "Courier New";
+    }
+    .font-tamanho {
+        font_size: 20px;
+        `}
+    .font-peso {
+        font-weigth: 600;
+    }
+    .font-estilo {
+        font-style: italic;
+    }
+    .font-cor {
+        color: #0088cc;
+    }
+    .texto-centralizad{
+        text-align: center;
+    }
+    .texto-sublinhado {
+        text-decoration: underline;
+    }
+    .texto_maiusculas {
+        text-transform: uppercase;
+    }
+    .sombra-texto{
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .espacamento-palavras {
+        word-spacing: 14px;
+    }
+    /*Isto é um comentário simples em CSS*/
+    /*Este é um comentário de múltiplas linhas em CSS*/
+    ul {`
+    list-stype-type: none;
+    margin: 0;
+    padding: 0;
+}
+.destaque {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.texto-grande {
+font-size: 24px;
+}
+
+.texto-azul {
+    color: blue;
+}
+
+#cabecalho-principal {
+    background-color: #333;
+}
+
+#cabecalho-principal {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Seletor universal*/
+{
+    margin: 0;
+    padding: 0;
+}
+
+input[type="text"] {
+    border: 2px solid blue;
+    padding: 5px;
+}
+a[href^=http] {
+    color: red;
+}
+div[data-status="ativo"] {
+    background-color: green;
+}
+/*Especificidade (0, 0, 0, 1)*/
+h4{
+    color: red;
+}
+/*Especificidade (0, 0, 1, 0)*/
+.especial-header {
+    color: blue;
+}
+.texto-azul-important {
+    color: red !important;
+}
+.text-azul {
+    color: blue;
+}
+.paragrafo-absoluto {
+    font-size: 16px;
+}
+.paragrafo-ponto {
+    font-size: 12pt;
+}
+.caixa-polegada {
+    width: 2in;
+    height: 1in;
+    border: 1px solid black;
+}
+.caixa-centimetro {
+    width: 50mm;
+    height; 20mm;
+    border: 1px solid green;
+}
+.container {
+    font-size: 20px; /*Tamanho da fonte para o elemento pai*/
+}
+.text-em {
+    font-size: 1.5em; /*150% do tamanho da fonte do elemento pai, ou seja, 30px*/
+}
+
+html {
+    font-size: 16px; /*Define o tamanho da fonte padrão para a página*/
+}
+
+.text-rem {
+    font-size; 2rem; /*200% do tamanho da fonte do elemento raiz, ou seja,32px*/
+}
