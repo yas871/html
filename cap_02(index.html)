@@ -1,0 +1,182 @@
+<!-- Isto é um comentário simples no HTML -->
+<p> é um parágrafo visível na página.</p>
+    <!--
+    Este é um comentário de múltiplas linhas.
+    Pode ser muito útil para explicar partes mais complexas do seu código
+    ou para temporariamente desativar parte do código.
+    -—->
+    <!--Comentários também podem ser usados para deixar lembretes-->
+    <!-- TODO: Adicionar mais conteúdo sobre o tema -->
+    <!-- Elementos inline de bloco -->
+    <p>
+    Este é um exemplo de <strong>elemento inline</strong> dentro de um
+    parágrafo.
+    </p>
+    <div>
+    Este é um exemplo de
+    <div>elemento em bloco</div>
+    dentro de outro bloco.
+    </div>
+    <p>
+    No exemplo acima, <strong> é um elemento inline </strong> que formata
+    parte do texto dentro do parágrafo, sem interromper o fluxo do texto.
+    </p>
+    <!--div -->
+    <div class="header">
+    <hi>Título da Página</h1>
+    </div>
+    <div class="content">
+        <p>Este é um parágrafo dentro de uma seção de conteúdo.</p>
+    </div>
+    <div class="footer">
+        <p> Direitos autorais (c) 2024.</p>
+        </div>
+        </body>
+    </html>
+
+
+<!--Aprendizagem de Desenvolvimento de Software
+Introdução ao Desenvolvimento Web com Prof Hudson
+Aluno:Lara Rodrigues Barros
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Desafio HTML</title>
+</head>
+<body>
+    <h1>ola mundo do Desenvolvimento web!</h1>
+    <p>Este e o meu primeiro desafio de criacao de uma pagina HTML.</p>
+
+    <!-- Tipos de Titulos -->
+   <h1>Meu Blog de Viagens</h1>
+   <h2>Destino Populares</h2>
+   <h3>Europa</h3>
+   <h4>Italia</h4>
+   <!--paragrafo-->
+   <p>Descrubra as belezas da Italia, desde suas cidades historicas ate as suas paisagens deslumbrantes </p>
+   <h3>Asia</h3>
+   <h4>japão</h4>
+   <p>Explore a rica cultura e as inovações tecnologicas do japão.</p>
+    <!-- paragrafos -->
+    <p>
+    Este e um exemplo de paragrafos no HTML. Ele introduz o conceito de blocos de texto,
+    fundamentais para a estruturação do conteudo em uma pagina web.Paragrafos ajudam a separar visualmente diferentes 
+    ideias ou seções de texto, tornando o conteudo mais facil de ler e navegar.
+    </p>
+    <p>
+        Ao criar conteudo para web, e importante considerar como os paragrafos sao usados para guiar
+        o leitor atraves do seu texto.  Uma boa pratica e focar em uma unica ideia por paragrafo, utilizando frases
+        claras e diretas.
+    </p>
+
+    <!-- Atributos -->
+    <div id = "secao-principal"></div>
+
+    <p class="texto-destaque"></p>
+    <!-- Imagens -->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQd6ffiRQWz7Ok0W7qdSPxfbngR3YSMceYzA&s" alt="Descrição"/>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3lYMWMT6xFjEIUwzfX55e8ttRo6z8g6_EuQ&s" alt="Descrição da imagem"/>
+
+    <!--Imagem externa-->
+    <img src="https://g1.globo.com/Noticias/Ciencia/foto/0,,33477683-FMM,00.jpg" alt="Descrição da imagem externa"/>
+
+    <!-- Listas -->
+    <ol>
+        <li>Iniciar o computador</li>
+        <li>Abrir o navegador</li>
+        <li>Acessar o site desejado</li>
+    </ol>
+
+    <ul>
+        
+        <ul>
+        <li>Maçãs</li>
+        <li>Bananas</li>
+        <li>Laranjas</li>
+    </ul>
+    <ul>
+    <ul>
+        <li>
+        Frutas
+        <ul>
+        <li>Maçãs</li>
+        <li>Bananas</li>
+        </ul>  
+    </li>
+    <li>
+        Verduras
+        <ul>
+        <li>Espinafre</li>
+        <li>Alface</li>
+        </ul>
+    </li>
+    </ul>
+<!-- Elememtos para formatação-->
+<p>
+    <strong>Texto importante</strong>, geralmente usado para indicar forte enfase
+    <b>Texto apenas em negrito</b> sem implincar maior importancia.
+</p>
+<p>
+    <em>Enfatizado</em>, geralmente para indicar enfase moderada.
+    <i>Texto em italico</i> para fins de estilo.
+</p>
+<p>
+    <u>Texto sublinhado</u> usado para indicar adições ou para fins estilisticos.
+</p>
+<p>
+    <s>Texto riscado</s> para mostrar remoção ou correção.</p>
+    <p><mark>Texto destacado</mark> para chamar atenção.</p>
+    <p>
+        <small>Texto em tamanho real</small> para notas de rodape ou detalhes.
+    </p>
+
+    <p>E=mc<sup>2</sup> H<sup>2</sup>0</p>
+
+    <!-- Comentarios -->
+
+    <!-- Isto e um comentario simples no HTML -->
+
+    <p> Este e um  paragrafo visivel na pagina.</p>
+
+<!--
+Este e um comentario de multiplas linhas.
+pode ser muito util para explicar partes mais complexas do seu codigo
+ou para temporariamente desativar parte do codigo.
+-->
+
+<!-- Comentarios tambem podem ser usados para deixar lembretes -->
+
+<!--  TODO: Adicionar mais conteudo sobre o tema -->
+
+<!-- Elementos inline de bloco -->
+<p>
+    Este e um  exemplo de <strong>elemento inline</strong> dentro de um paragrafo.
+</p>
+<div>
+    Este e um exemplo de <div>elemento em bloco</div>
+    dentro de outro bloco.
+    <p>
+        No exemplo acima, <strong>e um elemento inline</strong> que formata parte do texto dentro do paragrafo, sem interromper o fluxo do texto.
+    </p>
+    <!-- div -->
+    <div class="header">
+        <h1>Titulo de pagina</h1>
+    </div>
+
+    <div class="content">
+        <p>Este e um paragrafo dentro de uma seção de conteudo.</p>
+    </div>
+    <div class="footer">
+        <p>Direitos autorais (c) 2024.</p>
+    </div>
+</div>
+
+
+
+</body>
+</html>
