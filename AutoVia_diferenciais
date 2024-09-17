@@ -83,5 +83,16 @@
           </div>
         </div>
       </div>
+      <div class="card text-center">
+        <div class="card-header">
+            CENTRAL DE RESERVAS +55 (61) 3327-0022    -    WHATSAPP +55 (61) 98626-2222
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Faça sua Reserva</h5>
+          <a href="#" class="btn btn-primary">Clique Aqui</a>
+        </div>
+        <div class="card-footer text-muted">
+        </div>
+      </div>
 </body>
 </html>  
